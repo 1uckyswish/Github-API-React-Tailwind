@@ -4,24 +4,155 @@ export default {
   daisyui: {
     themes: [
       {
-        mytheme: {
-          primary: "#a4fcf9",
+        'rr': {
+          
 
-          secondary: "#b153e0",
+ 'primary' : '#f28c18',
 
-          accent: "#343db5",
 
-          neutral: "#223039",
+          
 
-          "base-100": "#434451",
+ 'primary-focus' : '#c9710d',
 
-          info: "#9cb3e8",
 
-          success: "#78edc4",
+          
 
-          warning: "#9d5c06",
+ 'primary-content' : '#131616',
 
-          error: "#f75f6e",
+
+
+          
+
+ 'secondary' : '#6d3b9b',
+
+
+          
+
+ 'secondary-focus' : '#532c77',
+
+
+          
+
+ 'secondary-content' : '#ffffff',
+
+
+
+          
+
+ 'accent' : '#4fa300',
+
+
+          
+
+ 'accent-focus' : '#367000',
+
+
+          
+
+ 'accent-content' : '#ffffff',
+
+
+
+          
+
+ 'neutral' : '#1b1d5d',
+
+
+          
+
+ 'neutral-focus' : '#131616',
+
+
+          
+
+ 'neutral-content' : '#ffffff',
+
+
+
+          
+
+ 'base-100' : '#1f1f1f',
+
+
+          
+
+ 'base-200' : '#1b1d1d',
+
+
+          
+
+ 'base-300' : '#131616',
+
+
+          
+
+ 'base-content' : '#ffffff',
+
+
+
+          
+
+ 'info' : '#66c7ff',
+
+
+          
+
+ 'success' : '#87cf3a',
+
+
+          
+
+ 'warning' : '#e1d460',
+
+
+          
+
+ 'error' : '#ff6b6b',
+
+
+
+          
+
+'--rounded-box': '1rem',          
+
+
+          
+
+'--rounded-btn': '.5rem',        
+
+
+          
+
+'--rounded-badge': '1.9rem',      
+
+
+
+          
+
+'--animation-btn': '.25s',       
+
+
+          
+
+'--animation-input': '.2s',       
+
+
+
+          
+
+'--btn-text-case': 'uppercase',   
+
+
+          
+
+'--navbar-padding': '.5rem',      
+
+
+          
+
+'--border-btn': '1px',            
+
+
         },
       },
     ],
