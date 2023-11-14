@@ -1,34 +1,34 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  daisyui: {
+ daisyui: {
     themes: [
       {
-        'rr': {
+        'cupcake': {
           
 
- 'primary' : '#f28c18',
-
-
-          
-
- 'primary-focus' : '#c9710d',
+ 'primary' : '#65c3c8',
 
 
           
 
- 'primary-content' : '#131616',
+ 'primary-focus' : '#42b2b8',
+
+
+          
+
+ 'primary-content' : '#ffffff',
 
 
 
           
 
- 'secondary' : '#6d3b9b',
+ 'secondary' : '#ef9fbc',
 
 
           
 
- 'secondary-focus' : '#532c77',
+ 'secondary-focus' : '#e7739e',
 
 
           
@@ -39,12 +39,12 @@ export default {
 
           
 
- 'accent' : '#4fa300',
+ 'accent' : '#eeaf3a',
 
 
           
 
- 'accent-focus' : '#367000',
+ 'accent-focus' : '#e09915',
 
 
           
@@ -55,12 +55,12 @@ export default {
 
           
 
- 'neutral' : '#1b1d5d',
+ 'neutral' : '#261230',
 
 
           
 
- 'neutral-focus' : '#131616',
+ 'neutral-focus' : '#200f29',
 
 
           
@@ -71,43 +71,43 @@ export default {
 
           
 
- 'base-100' : '#1f1f1f',
+ 'base-100' : '#faf7f5',
 
 
           
 
- 'base-200' : '#1b1d1d',
+ 'base-200' : '#efeae6',
 
 
           
 
- 'base-300' : '#131616',
+ 'base-300' : '#e7e2df',
 
 
           
 
- 'base-content' : '#ffffff',
+ 'base-content' : '#261230',
 
 
 
           
 
- 'info' : '#66c7ff',
+ 'info' : '#1c92f2',
 
 
           
 
- 'success' : '#87cf3a',
+ 'success' : '#009485',
 
 
           
 
- 'warning' : '#e1d460',
+ 'warning' : '#ff9900',
 
 
           
 
- 'error' : '#ff6b6b',
+ 'error' : '#ff5724',
 
 
 
@@ -118,7 +118,7 @@ export default {
 
           
 
-'--rounded-btn': '.5rem',        
+'--rounded-btn': '1.9rem',        
 
 
           
@@ -157,5 +157,5 @@ export default {
       },
     ],
   },
-  plugins: [require("daisyui")],
-};
+  plugins: [require('daisyui')],
+}

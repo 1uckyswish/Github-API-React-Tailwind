@@ -7,7 +7,7 @@ function UserItem({user : { login, avatar_url} }) {
         <div className="flex-row items-center space-x-4 card-body">
             <div>
                 <div className="avatar">
-                    <div className="rounded-full shadow width-14 h-14">
+                    <div className="rounded-full shadow cursor-pointer width-14 h-14 ">
                         <img src={avatar_url} alt='Profile' />
                     </div>
                 </div>
