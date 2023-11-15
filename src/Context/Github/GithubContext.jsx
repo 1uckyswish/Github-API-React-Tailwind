@@ -54,7 +54,7 @@ const getUser = async (username) => {
   const getUserRepos = async (username) => {
     setLoading();
       const params = new URLSearchParams({
-      sort: 'created',
+      sort: 'updated',
       per_page: 15
     });
     const response = await fetch(`https://api.github.com/users/${username}/repos?${params}`, {
