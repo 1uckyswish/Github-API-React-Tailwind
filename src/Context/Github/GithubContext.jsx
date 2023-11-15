@@ -20,9 +20,9 @@ export const GithubProvider = ({ children }) => {
       q: text,
     });
     const response = await fetch(`${GITHUB_URL}/search/users?${params}`, {
-      headers: {
-          Authorization: `token ${import.meta.env.VITE_GITHUB_TOKEN}`
-      }
+      // headers: {
+      //     Authorization: `token ${import.meta.env.VITE_GITHUB_TOKEN}`
+      // }
     });
 
     const { items } = await response.json();
@@ -35,9 +35,9 @@ export const GithubProvider = ({ children }) => {
 const getUser = async (username) => {
     setLoading();
     const response = await fetch(`${GITHUB_URL}/users/${username}`, {
-      headers: {
-          Authorization: `token ${import.meta.env.VITE_GITHUB_TOKEN}`
-      }
+      // headers: {
+      //     Authorization: `token ${import.meta.env.VITE_GITHUB_TOKEN}`
+      // }
     });
 
     if (response.status === 404) {
@@ -58,9 +58,9 @@ const getUser = async (username) => {
       per_page: 15
     });
     const response = await fetch(`https://api.github.com/users/${username}/repos?${params}`, {
-      headers: {
-          Authorization: `token ${import.meta.env.VITE_GITHUB_TOKEN}`
-      }
+      // headers: {
+      //     Authorization: `token ${import.meta.env.VITE_GITHUB_TOKEN}`
+      // }
     });
 
     const data = await response.json();

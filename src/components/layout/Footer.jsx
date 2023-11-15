@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {FaGithub} from 'react-icons/fa';
 
 function Footer() {
     const footerYear = new Date().getFullYear();
     
   return (
-    <footer className='p-10 bg-gray-700 footer-center text-primary-focus'>
+    <footer className='p-10 bg-neutral footer-center text-secondary'>
         <div>
         <svg
           width='50'

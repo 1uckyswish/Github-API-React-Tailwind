@@ -13,8 +13,8 @@ function RepoItem({ repo }) {
     stargazers_count,
   } = repo;
 
-  return <div className="mb-2 bg-gray-200 rounded-md card hover:bg-warning">
-    <div className="card-body">
+  return <div className="mb-2 bg-gray-200 rounded-md card hover:bg-secondary">
+    <div className="card-body hover:text-white">
         <h3 className="mb-2 text-xl font-semibold">
             <a href={html_url}>
                 <FaLink className="inline mr-1"/>
