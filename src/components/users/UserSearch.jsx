@@ -34,7 +34,7 @@ function UserSearch() {
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-            <h1 className="mb-4 text-5xl font-extrabold">
+            <h1 className="mb-4 text-5xl font-extrabold text-center">
               Discover GitHub Users
             </h1>
             <p className="text-lg">

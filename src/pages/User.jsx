@@ -38,7 +38,7 @@ function User() {
     <>
       <div className="w-full mx-auto lg:w-10/12">
         <div className="mb-4">
-          <Link to="/" className="btn btn-ghost">
+          <Link to="/" className="text-white btn btn-ghost bg-neutral hover:text-black">
             Back To Search
           </Link>
         </div>
