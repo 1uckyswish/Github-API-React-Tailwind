@@ -26,8 +26,7 @@ function UserSearch() {
           className="relative mb-4 overflow-hidden rounded-2xl h-96"
           style={{
             backgroundImage:
-              'url("https://blog.crew.work/content/images/2022/11/5-Steps-to-quickly-find-best-software-engineers-on-Github.png")',
-            backgroundSize: "cover",
+              'url("https://gopaddle-io.github.io/configurator/assets/images/github.png")',
             backgroundPosition: "center",
             objectFit: "cover",
           }}
